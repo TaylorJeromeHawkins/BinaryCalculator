@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<TitledPane collapsible="false" prefHeight="500.0" prefWidth="400.0" text="HISTORY" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="meTaylor.JavaFiles.historyController">
+   <content>
+      <BorderPane maxHeight="600.0" maxWidth="500.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="501.0" prefWidth="398.0">
+         <center>
+            <ListView fx:id="historyList" maxHeight="-Infinity" maxWidth="1.7976931348623157E308" prefHeight="439.0" prefWidth="379.0" BorderPane.alignment="TOP_CENTER">
+               <padding>
+                  <Insets bottom="2.0" />
+               </padding></ListView>
+         </center>
+         <bottom>
+            <Button mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="30.0" prefWidth="132.0" text="Clear History" BorderPane.alignment="TOP_CENTER" />
+         </bottom>
+      </BorderPane>
+   </content>
+</TitledPane>

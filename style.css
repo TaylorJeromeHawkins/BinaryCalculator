@@ -1,0 +1,62 @@
+.button {
+  -fx-border-color: black;
+  -fx-border-radius: 3px;
+}
+.mainPanel {
+  -fx-background-color: rgba(202, 186, 186, 0.599);
+}
+
+.titlePane {
+  -fx-background-color: rgb(0, 0, 0);
+}
+.number-Btn {
+  -fx-font-size: 25px;
+  -fx-font-weight: bold;
+}
+
+.equal-Btn {
+  -fx-color: rgb(137, 31, 31);
+  /* -fx-background-color: rgb(76, 76, 180); */
+  -fx-font-size: 25px;
+  -fx-font-weight: bold;
+}
+.equal-Btn:pressed {
+  -fx-background-color: rgba(0, 0, 0, 0.845);
+}
+
+.func-Btn {
+  -fx-font-size: 25px;
+  -fx-font-weight: BOLD;
+  -fx-text-fill: black;
+  -fx-background-color: rgba(131, 118, 151, 0.253);
+  /* -fx-border: 2px; */
+  /* -fx-border-color: black; */
+}
+
+.delete-Btn {
+  -fx-text-fill: red;
+}
+.delete-Btn:pressed {
+  -fx-background-color: rgba(61, 56, 56, 0.888);
+  -fx-font-weight: bold;
+}
+
+.CEbtn {
+  -fx-text-fill: orange;
+  -fx-font-weight: bold;
+}
+
+.txtfield {
+  -fx-background-color: rgba(131, 118, 151, 0.253);
+  -fx-background-radius: 8px;
+  -fx-border-radius: 8px;
+  -fx-border-color: rgba(0, 0, 0, 0.527);
+}
+
+.anchorPane {
+  -fx-background-color: rgba(139, 124, 124, 0.199);
+}
+.converterBtn {
+  -fx-background-color: rgba(147, 103, 103, 0.302);
+  -fx-font-weight: bold;
+}
